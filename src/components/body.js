@@ -1,4 +1,5 @@
 import React from 'react';
+import Buda from '../components/media/rocks.jpg';
 
 function body() {
     return (
@@ -52,6 +53,10 @@ function body() {
 
             </div>
 
+            <div class='budaContainer'>
+            <img src={Buda} class='budaImg' title='buda image' width='1000' lenght='700'/>
+            </div>
+            <p>placeholder</p>
         </div>
 
     </div>

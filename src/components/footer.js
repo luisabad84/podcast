@@ -3,7 +3,7 @@ import React from 'react';
 function footer() {
     return (
     <div class='footerContainer'>
-        {/* <p>placeholder</p> */}
+        <p>placeholder</p>
         <div class='footerContent'>
             <div class='leftContainer'>
                 <h3>La Voz De Sandra</h3>
@@ -23,7 +23,7 @@ function footer() {
                 <p>LaVozDeSandra &copy; 2019 THE URBAN COMPANY</p>
             </div>
         </div>
-        {/* <p>placeholder</p> */}
+        <p>placeholder</p>
     </div>
     );
 }
