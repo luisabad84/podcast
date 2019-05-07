@@ -1,6 +1,7 @@
+html,
 body {
     color: white;
-    background-image: url(components/media/background.jpg);
+    background-image: url(components/media/plantbackground.jpg);
     height: 100%;
     width: 100%;
     background-attachment: fixed;
@@ -8,21 +9,122 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.headerContainer {
-    border:1px solid black;
-    background-color: white;
-    width: 95%;
-    margin: 0 auto;
-    border-color:white;
-    box-shadow: 0 0 30px #161616;
-}
 .headerName {
     font-size: 65px;
     color: black;
     border: 0px;
     font-family: 'Sofia', cursive;
-    margin-left: 30px;
+    margin-right: 170px;
 }
 .headerName:hover {
     cursor: pointer;
+}
+.headerContainer {
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 3;
+    box-shadow: 0 0 30px #161616;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    /* justify-content: center; */
+    margin-top: 30px;
+}
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+.aboutBtn, .contactBtn, .logInBtn, .signUpBtn {
+    cursor: pointer;
+    font-size: 18px;
+    border-color: white;
+}
+.bodyContainer {
+    position: relative;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    box-shadow: 0 0 30px #161616;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 750px;
+    color: black;
+}
+.bodyContent {
+    border: 1px solid red;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    
+}
+.scrollPlaceholder {
+    margin-top: 225px;
+    margin-bottom: 225px;
+}
+.bodyContainer p{
+    text-align: center;
+    font-size: 20px;
+}
+.loremPlaceholder {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.podcastContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.podcastBox {
+    border:1px solid red;
+    padding: 130px;
+    margin: 20px;
+}
+.podcastBox:hover {
+    box-shadow: 0 0 30px #a1a2a3;
+}
+
+.footerContainer {
+    border: 1px solid white;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    box-shadow: 0 0 30px #161616;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: black;
+}
+.footerContent {
+    display: flex;
+    flex-direction: row;
+
+}
+.leftContainer {
+    border: 1px solid red;
+    flex-shrink: 20;
+}
+.rightContainer {
+    border: 1px solid red;
+}
+
+
+
+@media screen and (min-width: 360px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
 }
