@@ -1,15 +1,20 @@
 import React from 'react';
-import Buda from '../components/media/rocks.jpg';
+import Rocks from '../components/media/rocks.jpg';
+import Mountain from '../components/media/mountain.jpg';
 
 function body() {
     return (
     <div>
-        <h2 class='universeName'>Universe</h2>
-        <p class='downName'>Scroll down</p>
+        {/* <h2 class='universeName'>Universe</h2>
+        <p class='downName'>Scroll down</p> */}
+
+        <div class="arrow-container">
+                <p><i class="down"></i></p>
+        </div>
 
         <div class="bodyContainer">
             <p>placeholder</p>
-            <div class='bodyContent'>
+            <div id='imgClickAndChange'>
                 <p class='scrollPlaceholder'>podcast and social</p>
             </div>
             <p class='loremPlaceholder'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum 
@@ -53,8 +58,51 @@ function body() {
 
             </div>
 
-            <div class='budaContainer'>
-            <img src={Buda} class='budaImg' title='buda image' width='1000' lenght='700'/>
+
+            <div class='rockImgContainer'>
+            <img src={Rocks} class='rockImg'/>
+                <div class='rockDiv'>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum 
+                bibendum nibh, ut egestas sem hendrerit a. Curabitur et mollis 
+                ipsum. Praesent fermentum ut sem nec eleifend. Quisque feugiat nec 
+                orci sit amet finibus. Pellentesque et egestas nunc. Aenean rhoncus 
+                massa id lectus cursus, sed tristique metus vehicula. Donec purus leo, 
+                efficitur ut mauris id, dapibus facilisis ex. Sed placerat lorem nec 
+                dolor venenatis, pharetra dictum quam rutrum. Aenean facilisis purus 
+                ac nisl aliquet consequat. Ut porta semper neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum 
+                bibendum nibh, ut egestas sem hendrerit a. Curabitur et mollis 
+                ipsum. Praesent fermentum ut sem nec eleifend. Quisque feugiat nec 
+                orci sit amet finibus. Pellentesque et egestas nunc. Aenean rhoncus 
+                massa id lectus cursus, sed tristique metus vehicula. Donec purus leo, 
+                efficitur ut mauris id, dapibus facilisis ex. Sed placerat lorem nec 
+                dolor venenatis, pharetra dictum quam rutrum. Aenean facilisis purus 
+                ac nisl aliquet consequat. Ut porta semper neque
+                    </p>
+                </div>
+            </div>
+
+            <div class='mountainImgContainer'>
+                <img src={Mountain} class='mountainImg'/>
+                <div class='mountainDiv'>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum 
+                bibendum nibh, ut egestas sem hendrerit a. Curabitur et mollis 
+                ipsum. Praesent fermentum ut sem nec eleifend. Quisque feugiat nec 
+                orci sit amet finibus. Pellentesque et egestas nunc. Aenean rhoncus 
+                massa id lectus cursus, sed tristique metus vehicula. Donec purus leo, 
+                efficitur ut mauris id, dapibus facilisis ex. Sed placerat lorem nec 
+                dolor venenatis, pharetra dictum quam rutrum. Aenean facilisis purus 
+                ac nisl aliquet consequat. Ut porta semper neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum 
+                bibendum nibh, ut egestas sem hendrerit a. Curabitur et mollis 
+                ipsum. Praesent fermentum ut sem nec eleifend. Quisque feugiat nec 
+                orci sit amet finibus. Pellentesque et egestas nunc. Aenean rhoncus 
+                massa id lectus cursus, sed tristique metus vehicula. Donec purus leo, 
+                efficitur ut mauris id, dapibus facilisis ex. Sed placerat lorem nec 
+                dolor venenatis, pharetra dictum quam rutrum. Aenean facilisis purus 
+                ac nisl aliquet consequat. Ut porta semper neque
+                    </p>
+                </div>
             </div>
             <p>placeholder</p>
         </div>
